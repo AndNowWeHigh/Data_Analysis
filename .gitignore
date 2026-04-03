@@ -1,0 +1,29 @@
+.venv/
+venv/
+.env
+data/
+
+# кеш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# логи та системні файли
+*.log
+.DS_Store
+mdeq_robustness.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+
+*.pdf
+
+# --- ЧЕКПОІНТИ ---
+# проміжні моделі та папки
+checkpoints/**/*
+
+# найкраща пара
+!checkpoints/mdeq/MDEQ_best.pth
+!checkpoints/sresnet/ResNet_best.pth
